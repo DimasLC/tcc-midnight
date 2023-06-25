@@ -1,0 +1,332 @@
+.title-planos {
+    text-align: center;
+    font-size: 40px;
+    height: 1rem;
+    margin-top: 6rem;
+}
+
+/* ======================================================= */
+
+.two-phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4rem;
+    height: 95vh;
+}
+
+.text-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1.5rem;
+    height: 100%;
+    color: whitesmoke;
+}
+
+.text-screen h3 {
+    font-size: 28px;
+}
+
+.text-screen p {
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+/* ======================================================== */
+
+.meio-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 95vh;
+}
+
+.loader {
+    position: absolute;
+    z-index: 10;
+    width: 160px;
+    height: 100px;
+    margin-left: -80px;
+    margin-top: -50px;
+    border-radius: 5px;
+    background: #ffffff;
+    animation: dot1_ 3s cubic-bezier(0.55,0.3,0.24,0.99) infinite;
+  }
+  
+  .loader:nth-child(2) {
+    z-index: 11;
+    width: 150px;
+    height: 90px;
+    margin-top: -45px;
+    margin-left: -75px;
+    border-radius: 3px;
+    background: #3c517d;
+    animation-name: dot2_;
+  }
+  
+  .loader:nth-child(3) {
+    z-index: 12;
+    width: 40px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: -20px;
+    border-radius: 0 0 5px 5px;
+    background: #6bb2cd;
+    animation-name: dot3_;
+  }
+  
+  @keyframes dot1_ {
+    3%,97% {
+      width: 160px;
+      height: 100px;
+      margin-top: -50px;
+      margin-left: -80px;
+    }
+  
+    30%,36% {
+      width: 80px;
+      height: 120px;
+      margin-top: -60px;
+      margin-left: -40px;
+    }
+  
+    63%,69% {
+      width: 40px;
+      height: 80px;
+      margin-top: -40px;
+      margin-left: -20px;
+    }
+  }
+  
+  @keyframes dot2_ {
+    3%,97% {
+      height: 90px;
+      width: 150px;
+      margin-left: -75px;
+      margin-top: -45px;
+    }
+  
+    30%,36% {
+      width: 70px;
+      height: 96px;
+      margin-left: -35px;
+      margin-top: -48px;
+    }
+  
+    63%,69% {
+      width: 32px;
+      height: 60px;
+      margin-left: -16px;
+      margin-top: -30px;
+    }
+  }
+  
+  @keyframes dot3_ {
+    3%,97% {
+      height: 20px;
+      width: 40px;
+      margin-left: -20px;
+      margin-top: 50px;
+    }
+  
+    30%,36% {
+      width: 8px;
+      height: 8px;
+      margin-left: -5px;
+      margin-top: 49px;
+      border-radius: 8px;
+    }
+  
+    63%,69% {
+      width: 16px;
+      height: 4px;
+      margin-left: -8px;
+      margin-top: -37px;
+      border-radius: 10px;
+    }
+  }
+
+/* =========================================================== */
+
+.container-planos {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.box-left img {
+    width: 450px;
+    height: 400px;
+}
+
+.box-right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.box-right h2{
+    font-size: 45px;
+}
+
+.box-right p {
+    padding: 2rem 5rem;
+    font-size: 18px;
+}
+
+/* ================================================================== */
+/* Container Tabela ================================================= */
+
+.container-tabela {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 8rem 4rem;
+}
+
+.pack-container1 {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #212121;
+    border: 1px solid #fff;
+    padding: 1.6rem;
+    color: #fff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+
+  .pack-container2 {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #212121;
+    border: 1px solid #fff;
+    padding: 1.6rem;
+    color: #fff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+
+  .pack-container3 {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: #212121;
+    border: 1px solid #fff;
+    padding: 1.6rem;
+    color: #fff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+  
+  .header {
+    position: relative;
+    margin: 0;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .title {
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    color: #fff
+  }
+  
+  .price-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    font-family: sans-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+  
+  .price-container span:first-child {
+    margin-top: 10px;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  
+  .price-container span:last-child {
+    align-self: flex-end;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  
+  .lists {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .list span {
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    background-color: rgba(255, 255, 255, 0.185);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .list span svg {
+    height: 12px;
+    width: 12px;
+  }
+  
+  .list p {
+    display: block;
+    font-family: sans-serif;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    padding: 0;
+  }
+  
+  .button-container button {
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #000;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+  }

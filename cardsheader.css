@@ -1,0 +1,345 @@
+.hr {
+  border: 1px solid rgb(195, 194, 194);
+}
+
+.textoBoxMae-card {
+  height: 115vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-card {
+  text-align: center;
+  margin: 6rem 4rem;
+  margin-top: 10rem;
+}
+
+.texto-card h1 {
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+}
+
+.texto-card p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.box-mae-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.plan-card {
+  background: #fff;
+  width: 14rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border-bottom: 4px solid #000446;
+  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+  font-family: sans-serif;
+}
+
+.plan-card h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 15px;
+  font-size: 27px;
+  font-weight: bold;
+  color: #111;
+  text-align: center;
+}
+
+.plan-card h2 span {
+  display: block;
+  margin-top: -4px;
+  color: #4d4d4d;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.etiquet-price {
+  position: relative;
+  background: #fdbd4a;
+  width: 13.46rem;
+  margin-left: -0.65rem;
+  padding: .2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.etiquet-price p {
+  margin: 0;
+  padding-top: .4rem;
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.etiquet-price p:before {
+  content: "R$";
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price p:after {
+  content: "/ Apenas";
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.etiquet-price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #c58102;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: -6;
+}
+
+.benefits-list {
+  margin-top: 16px;
+}
+
+.benefits-list ul {
+  padding: 0;
+  font-size: 14px;
+}
+
+.benefits-list ul li {
+  color: #4d4d4d;
+  list-style: none;
+  margin-bottom: .2rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.benefits-list ul li svg {
+  width: .9rem;
+  fill: currentColor;
+}
+
+.benefits-list ul li span {
+  font-weight: 300;
+}
+
+.button-get-plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+.button-get-plan a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 5rem;
+}
+
+.button-get {
+  background: #070c6c;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 10rem;
+  height: 2.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  border-radius: 5px;
+}
+
+
+/* Ofertas Planos */
+
+.ofertas-planos {
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ofertas-planos h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 2rem;
+}
+
+.ofertas-planosh2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 35px;
+}
+
+.mediopremium {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 4rem;
+}
+
+.box-mae-card-ofertas-planos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.medio {
+  background-color: transparent;
+}
+
+.oferta-btn {
+  position: fixed;
+  top: 3rem;
+}
+
+.oferta-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.premium {
+  background-color: transparent
+}
+
+/* btn-ofertas */
+
+.oferta-btn {
+  --width: 130px;
+  --height: 40px;
+  --tooltip-height: 35px;
+  --tooltip-width: 90px;
+  --gap-between-tooltip-to-button: 18px;
+  --button-color: #222;
+  --tooltip-color: #fff;
+  width: var(--width);
+  height: var(--height);
+  background: var(--button-color);
+  position: relative;
+  text-align: center;
+  border-radius: 0.45em;
+  font-family: "Arial";
+  transition: background 0.3s;
+}
+
+.oferta-btn::before {
+  position: absolute;
+  content: attr(data-tooltip);
+  width: var(--tooltip-width);
+  height: var(--tooltip-height);
+  background-color: #555;
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: .25em;
+  line-height: var(--tooltip-height);
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) + 10px);
+  left: calc(50% - var(--tooltip-width) / 2);
+}
+
+.oferta-btn::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top-color: #555;
+  left: calc(50% - 10px);
+  bottom: calc(100% + var(--gap-between-tooltip-to-button) - 10px);
+}
+
+.oferta-btn::after,
+.oferta-btn::before {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.oferta-btn-wrapper,
+.text,
+.icon {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  color: #fff;
+}
+
+.text {
+  top: 0
+}
+
+.text,
+.icon {
+  transition: top 0.5s;
+}
+
+.icon {
+  color: #fff;
+  top: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon a {
+  color: #c58102;
+}
+
+.icon i {
+  font-size: 25px;
+}
+
+.oferta-btn:hover {
+  background: #222;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.oferta-btn:hover .text {
+  top: -100%;
+}
+
+.oferta-btn:hover .icon {
+  top: 0;
+}
+
+.oferta-btn:hover:before,
+.oferta-btn:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.oferta-btn:hover:after {
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
+}
+
+.oferta-btn:hover:before {
+  bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
+}
+

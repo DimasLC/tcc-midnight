@@ -1,0 +1,135 @@
+.h1-espaco {
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+#h1 {
+    width: 33%;
+    font-size: 75px;
+    text-align: center;
+}
+
+/* =========================================================================================== */
+
+/* =========================================================================================== */
+
+.container-geral {
+    margin: 10rem 0;
+}
+
+.container-trip-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin: 3rem 0;
+}
+
+.container-trip-top p {
+    margin: 2rem 1rem;
+}
+
+.container-trip-top img {
+    padding: 1rem;
+    width: 280px;
+    height: 250px;
+}
+
+.box-left-trip {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.box-mid-trip {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.box-right-trip {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* =========================================================================================== */
+/* =========================================================================================== */
+/* =========================================================================================== */
+
+.h1-trips {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.container-linha {
+    padding: 1rem 13rem;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.linha {
+    border: 2px white solid;
+    width: 33%;
+    height: 1px;
+}
+
+.linha-1 {
+    border: 2px white solid;
+    width: 34%;
+    height: 1px;
+}
+
+.linha-2 {
+    border: 2px white solid;
+    width: 33%;
+    height: 1px;
+}
+
+.linha-3 {
+    border: 2px white solid;
+    width: 33%;
+    height: 1px;
+}
+
+/* =========================================================================================== */
+/* =========================================================================================== */
+/* =========================================================================================== */
+
+.container-comprar {
+    height: 22rem;
+    padding: 0 4rem;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-texto-comprar {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-texto-comprar p {
+    width: 75%;
+}

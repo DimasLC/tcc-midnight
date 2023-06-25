@@ -1,0 +1,31 @@
+.criptos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bitcoin{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 30%;
+}
+
+.cartao {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone {
+    width: 270px;
+    max-width: 270px;
+    height: 530px;
+}
+
+

@@ -1,0 +1,223 @@
+
+.container-cards-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12rem;
+    padding: 0 8rem;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+   }
+   
+   .card:hover {
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+    background-color: #4bb8ff;
+   }
+   
+   
+   .card .blob {
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+    transition: all 0.3s;
+   }
+   
+   .card:hover .blob {
+    height: 0;
+   }
+   
+   /* Imagens ==================================================================== */
+
+   .card .img-oceania1 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(img-trip/icone-ilhasalomao.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-oceania1 {
+    background-image: url(https://s1.static.brasilescola.uol.com.br/be/conteudo/images/belezas-naturais-das-ilhas-salomao-1306178967.gif);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ===================================================================== */
+
+   /* Imagens 2 ==================================================================== */
+
+   .card .img-oceania2 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 85px;
+    height: 85px;
+    background-image: url(img-trip/icone-fiji.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-oceania2 {
+    background-image: url(https://www.worldatlas.com/r/w1200/upload/67/f4/45/shutterstock-491848903.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ================================================================== */
+
+   /* Imagens 3 ==================================================================== */
+
+   .card .img-oceania3 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 85px;
+    height: 75px;
+    background-image: url(img-trip/icone-newzeland.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-oceania3 {
+    background-image: url(https://novazelandiabrasil.com.br/wp-content/uploads/sites/3/2022/08/discover-viaduct-harbour-auckland-view.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ================================================================== */
+
+   /* Imagens 4 ==================================================================== */
+
+   .card .img-oceania4 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(img-trip/icone-australia.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-oceania4 {
+    background-image: url(https://s3.sa-east-1.amazonaws.com/optima-intercambio/artigos/canberra-australia6.jpg?auto=format%2Cenhance%2Ccompress);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ==================================================================== */
+
+   .card h3 {
+    padding: 45px 10px;
+    font-size: 25px;
+    transition: all 0.5s;
+    z-index: -99;
+    line-height: 17px;
+    color: black;
+   }
+   
+   .card:hover h3 {
+    opacity: 0;
+    transition: all 0.5s;
+   }
+
+   /* ========================================================================================== */
+   /* ========================================================================================== */
+   /* ========================================================================================== */
+
+
+   .box-imagens-comprar {
+    width: 45%;
+    }
+    
+    .img-top-oceania img {
+        width: 95px;
+        height: 95px;
+    }
+    
+    .imgs-mid {
+        padding: 6rem 3rem;
+    }
+    
+    .mid-oceania1 img{
+        width: 95px;
+        height: 95px;
+    }
+    
+    .mid-oceania2 img {
+         width: 80px;
+        height: 80px;
+    }
+    
+    .mid-oceania3 img{
+        width: 95px;
+        height: 85px;
+    }
+    
+    .img-bottom-oceania img {
+        width: 75px;
+        height: 70x;
+    }
+    
+    .img-top-oceania {
+        height: 31%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imgs-mid {
+        margin: 1rem 0;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .img-bottom-oceania {
+        height: 30.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

@@ -1,0 +1,154 @@
+.titulo-sobre {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-sobre h1 {
+    width: 45%;
+    font-size: 60px;
+    text-align: center;
+}
+
+/* ==================================================================================== */
+
+.blocos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.bloco-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+}
+
+.bloco-l p {
+    padding: 0 4rem;
+    font-size: 20px;
+}
+
+.bloco-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.bloco-m img {
+    width: 500px;
+    height: 500px;
+}
+
+.bloco-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+}
+
+.bloco-r p {
+    padding: 0 4rem;
+    font-size: 20px;
+}
+
+/* ======================================================================================= */
+
+.bloco-imagens {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.img-1 img {
+    width: 350px;
+    height: 200px;
+}
+
+.img-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.img-2 img {
+    width: 350px;
+    height: 200px;
+}
+
+.img-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.img-3 img {
+    width: 350px;
+    height: 200px;
+}
+
+/* ======================================================================================= */
+
+.bloco-textos {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bloco-textos h1 {
+    font-size: 45px;
+}
+
+.texto-esquerda {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-esquerda p {
+    padding: 0 5rem;
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+
+.texto-direita {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-direita p {
+    padding: 0 5rem;
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+
+/* ======================================================================= */
+

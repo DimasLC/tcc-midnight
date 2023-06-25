@@ -1,0 +1,226 @@
+.container-equipe {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+}
+
+.card {
+    width: 220px;
+    height: 270px;
+    background: #3405a3;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+}
+   
+   .card .card-border-top {
+    width: 65%;
+    height: 3%;
+    background: #6b64f3;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 15px;
+   }
+   
+   .card .img {
+    width: 90px;
+    height: 90px;
+    background-image: url(https://o.remove.bg/downloads/c7cb0209-fe32-478b-ab6b-8c7e72235782/generic-png-removebg-preview.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+   }
+   
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 33px;
+    background: #6b64f3;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 0 30px 5px rgba(1, 2, 87, 0.815);
+    transition: all 0.5s ease-in;
+   }
+
+   .card a {
+    text-decoration: none;
+   }
+   
+   .card button:hover {
+    background: #03002c;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0 0 30px 5px #303299;
+   }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.card-felipy {
+    width: 220px;
+    height: 270px;
+    background: #7e05a3;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+}
+   
+.card-felipy .card-border-top {
+    width: 65%;
+    height: 3%;
+    background: #d15bf5;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+.card-felipy .img {
+    width: 90px;
+    height: 90px;
+    background-image: url(https://o.remove.bg/downloads/c7cb0209-fe32-478b-ab6b-8c7e72235782/generic-png-removebg-preview.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+   }
+   
+   .card-felipy button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 33px;
+    background: #d15bf5;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 0 30px 5px rgba(72, 1, 87, 0.815);
+    transition: all 0.5s ease-in;
+   }
+
+   .card-felipy a {
+    text-decoration: none;
+   }
+   
+   .card-felipy button:hover {
+    transition: 0.5s;
+    background: #280035;
+    color: white;
+    box-shadow: 0 0 30px 5px #7f3099;
+   }
+   
+   .card-felipy span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+   }
+   
+   .card-felipy .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 15px;
+   }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.card-guilherme {
+    width: 220px;
+    height: 270px;
+    background: #17a305;
+    border-radius: 15px;
+    box-shadow: 1px 5px 60px 0px #100a886b;
+}
+   
+.card-guilherme .card-border-top {
+    width: 65%;
+    height: 3%;
+    background: #68ec56;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+   }
+   
+.card-guilherme .img {
+    width: 90px;
+    height: 90px;
+    background-image: url(https://o.remove.bg/downloads/c7cb0209-fe32-478b-ab6b-8c7e72235782/generic-png-removebg-preview.png);
+    background-size: cover;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+   }
+   
+   .card-guilherme button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 33px;
+    background: #68ec56;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 0 30px 5px rgba(1, 87, 1, 0.815);
+    transition: all 0.5s ease-in;
+   }
+
+   .card-guilherme a {
+    text-decoration: none;
+   }
+   
+   .card-guilherme button:hover {
+    background: #063000;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0 0 30px 5px #30994a;
+   }
+   
+   .card-guilherme span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+   }
+   
+   .card-guilherme .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 15px;
+   }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

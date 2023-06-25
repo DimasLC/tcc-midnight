@@ -1,0 +1,63 @@
+.cards-acessos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin: 5rem 4rem;
+  }
+
+  .titulo-cards-acessos {
+    text-align: center;
+    width: 25%;
+  }
+  
+  .cards-acessos .red {
+    background-image: url(img-cards-index/img1.jpg);
+    background-size: cover;
+    width: 25%;
+  }
+  
+  .cards-acessos .blue {
+    background-image: url(img-cards-index/img2.jpg);
+    background-size: cover;
+    width: 25%;
+  }
+  
+  .cards-acessos .green {
+    background-image: url(img-cards-index/img3.jpg);
+    background-size: cover;
+    width: 25%;
+  }
+  
+  .cards-acessos .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 150px;
+    width: 650px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards-acessos .cart p.tip {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  .cards-acessos .cart p.second-text {
+    font-size: 1em;
+  }
+  
+  .cards-acessos .cart:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards-acessos:hover > .cart:not(:hover) {
+    filter: blur(3px);
+    transform: scale(0.7, 0.7);
+  }

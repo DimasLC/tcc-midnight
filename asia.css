@@ -1,0 +1,223 @@
+.container-cards-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12rem;
+    padding: 0 8rem;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+    background-color: #4bb8ff;
+}
+
+
+.card .blob {
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+    transition: all 0.3s;
+}
+
+.card:hover .blob {
+    height: 0;
+}
+
+/* Imagens ==================================================================== */
+
+.card .img-asia1 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(img-trip/icone-malasia.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+    
+}
+
+.card:hover .img-asia1 {
+    background-image: url(https://3.bp.blogspot.com/-8fzvNGKOamU/T2nFkG_725I/AAAAAAAASeU/JmKb-u_ctAY/s1600/Kuala-Lumpur-Malasia.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* Imagem ===================================================================== */
+
+/* Imagens 2 ==================================================================== */
+
+.card .img-asia2 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 85px;
+    height: 85px;
+    background-image: url(img-trip/icone-tailandia.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.card:hover .img-asia2 {
+    background-image: url(https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* Imagem ================================================================== */
+
+/* Imagens 3 ==================================================================== */
+
+.card .img-asia3 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 75px;
+    height: 75px;
+    background-image: url(img-trip/icone-cambodja.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.card:hover .img-asia3 {
+    background-image: url(https://res.klook.com/image/upload/Mobile/City/yrpugzbvzib2s171lcpx.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* Imagem ================================================================== */
+
+/* Imagens 4 ==================================================================== */
+
+.card .img-asia4 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(img-trip/icone-vietna.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.card:hover .img-asia4 {
+    background-image: url(https://a.cdn-hotels.com/gdcs/production144/d1394/a304783d-6dc9-4bb2-9239-d124a16a154e.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+/* Imagem ==================================================================== */
+
+.card h3 {
+    padding: 45px 10px;
+    font-size: 25px;
+    transition: all 0.5s;
+    z-index: -99;
+    line-height: 17px;
+    color: black;
+}
+
+.card:hover h3 {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+/* ========================================================================================== */
+/* ========================================================================================== */
+/* ========================================================================================== */
+
+
+.box-imagens-comprar {
+    width: 45%;
+}
+
+.img-top-asia img {
+    width: 95px;
+    height: 95px;
+}
+
+.imgs-mid {
+    padding: 6rem 3rem;
+}
+
+.mid-asia1 img {
+    width: 95px;
+    height: 95px;
+}
+
+.mid-asia2 img {
+    width: 90px;
+    height: 90px;
+}
+
+.mid-asia3 img {
+    width: 75px;
+    height: 75px;
+}
+
+.img-bottom-asia img {
+    width: 75px;
+    height: 70x;
+}
+
+.img-top-asia {
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs-mid {
+    margin: 1rem 0;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-bottom-asia {
+    height: 30.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

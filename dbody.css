@@ -1,0 +1,210 @@
+/* ------------------------------------------------------------------------------------------- */
+
+.titulo-eventos {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.titulo-eventos h1 {
+  font-size: 50px;
+  width: 35%;
+}
+
+.container-card-left {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-card-right {
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+/* ============================================================================================== */
+/* ============================================================================================== */
+/* ============================================================================================== */
+
+.card-1 {
+    background-image: url(https://eletrovibez.com/wp-content/uploads/2022/11/Saiba-tudo-sobre-a-venda-de-ingressos-para-o-Tomorrowland-Belgica-2023.jpg);
+     background-size: cover;
+     width: 600px;
+     height: 340px;
+     box-shadow: 4px 6px 14px #00000036;
+     border-radius: 35px;
+     color: #F9F9F9;
+     padding: 16px;
+     transition: all .3s;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+  .card-2 {
+      background-image: url(https://t2.tudocdn.net/620393?w=1920);
+      background-size: cover;
+      width: 600px;
+      height: 340px;
+      box-shadow: 4px 6px 14px #00000036;
+      border-radius: 35px;
+      color: #F9F9F9;
+      padding: 16px;
+      transition: all .3s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-3 {
+    background-image: url(https://images.sympla.com.br/6467c52d6bc11-lg.png);
+     background-size: cover;
+     width: 600px;
+     height: 340px;
+     box-shadow: 4px 6px 14px #00000036;
+     border-radius: 35px;
+     color: #F9F9F9;
+     padding: 16px;
+     transition: all .3s;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .card-4 {
+      background-image: url(https://i0.wp.com/almostginger.com/wp-content/uploads/2019/07/P8260502.jpg);
+       background-size: cover;
+       width: 600px;
+       height: 340px;
+       box-shadow: 4px 6px 14px #00000036;
+       border-radius: 35px;
+       color: #F9F9F9;
+       padding: 16px;
+       transition: all .3s;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+
+  .card-5 {
+      background-image: url(https://www.visiteosusa.com.br/sites/default/files/styles/hero_l/public/images/hero_media_image/2021-09/95e7d963-79dc-46f5-9388-4a128a086b2a.jpeg?h=58c8a5e7&itok=c4aYEBPF);
+      background-size: cover;
+      width: 600px;
+      height: 340px;
+      box-shadow: 4px 6px 14px #00000036;
+      border-radius: 35px;
+      color: #F9F9F9;
+      padding: 16px;
+      transition: all .3s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-6 {
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2020/04/festival-lanternas-chiang-mai-tailandia.jpg);
+    background-size: cover;
+    width: 600px;
+    height: 340px;
+    box-shadow: 4px 6px 14px #00000036;
+    border-radius: 35px;
+    color: #F9F9F9;
+    padding: 16px;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================================================================================== */
+/* ============================================================================================== */
+/* ============================================================================================== */
+
+  .box-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+
+  .box-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box-right p {
+    padding: 1rem 2rem;
+    font-size: 17px;
+  }
+
+/* ------------------------------------------------------------------------------------------- */
+.eventos {
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards-all {
+  height: 30rem;
+  display: flex;
+}
+
+.cards-left {
+  height: 30rem;
+  display: flex;
+}
+
+.cards-right {
+  height: 30rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.cards-all #eventos-right {
+  height: 30rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* ====================================================================================================================================*/
+
+.comment-like {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.comment-like span {
+  cursor: pointer;
+  height: 40px;
+  width: 50px;
+  padding: 0 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: all .15s ease;
+}
+
+.comment-like span:hover {
+  background-color: rgba(137, 43, 226, 0.096);
+}
+
+.comment-like span svg {
+  fill: rgb(255, 255, 255);
+  margin-right: 2px;
+}
+
+/* cards de opções ------------------------------------------------------ */

@@ -1,0 +1,148 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: var(--body-bg);
+        color: white;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .menu {
+        display: none;
+        cursor: pointer;
+    }
+
+    .header1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid white;
+        padding: 1rem 4rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 18px;
+    }
+
+    #title {
+        flex-direction: column;
+        line-height: 10px;
+    }
+
+    li {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    header a {
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: rgb(132, 14, 201);
+        transition: 0.3s all;
+    }
+
+    #inscreva-se-btn {
+        border: 2px solid rgb(132, 14, 201);
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    #inscreva-se-btn:hover {
+        background-color: rgb(132, 14, 201);
+        color: white;
+    }
+
+    h1 {
+        font-weight: 20px;
+    }
+
+    .login {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .header2 {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 2.5rem;
+    }
+
+    /* -------------------------------------------------------------------------- */
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+
+    /* ----------------------- Parallax ----------------------------- */
+    .parallax {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        background: url('img-paralax/praianoite.jpg') no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+
+    #text {
+        position: absolute;
+        font-size: 5em;
+        color: #1b283a;
+        text-shadow: 2px 4px 5px #f9f9f9;
+    }
+
+    .parallax img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        pointer-events: none;
+
+    }
+
+    .parallax img#aviao {
+        position: absolute;
+        top: 25rem;
+        left: -25rem;
+    }
+
+    /*---------------- menu --------*/
+    @media screen and (max-width: 768px) {
+        .menu {
+            display: block;
+            padding: 2rem;
+            font-size: 25px;
+        }
+
+        .header1 {
+            display: none;
+            flex-direction: column;
+        }
+
+        .header1.active{ 
+            display: flex;
+        }
+
+
+    
+
+  
+
+
+    }

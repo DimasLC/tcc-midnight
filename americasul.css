@@ -1,0 +1,223 @@
+
+.container-cards-linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12rem;
+    padding: 0 8rem;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    text-align: center;
+   }
+   
+   .card:hover {
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+    background-color: #4bb8ff;
+   }
+   
+   
+   .card .blob {
+    height: 10px;
+    width: 75%;
+    border-radius: 0 0 30px 30px;
+    margin: 0 auto;
+    background-color: #4bb8ff;
+    visibility: visible;
+    transition: all 0.3s;
+   }
+   
+   .card:hover .blob {
+    height: 0;
+   }
+   
+   /* Imagens ==================================================================== */
+
+   .card .img-amsul1 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(img-trip/icone-brasil.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-amsul1 {
+    background-image: url(https://viagemeturismo.abril.com.br/wp-content/uploads/2017/12/istock-842960000.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ===================================================================== */
+
+   /* Imagens 2 ==================================================================== */
+
+   .card .img-amsul2 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 85px;
+    height: 85px;
+    background-image: url(img-trip/icone-uruguai.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-amsul2 {
+    background-image: url(https://ideiasnamala.com/wp-content/uploads/2010/10/O-que-fazer-montevideo-640x400.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ================================================================== */
+
+   /* Imagens 3 ==================================================================== */
+
+   .card .img-amsul3 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 75px;
+    height: 75px;
+    background-image: url(img-trip/icone-argentina.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-amsul3 {
+    background-image: url(https://catracalivre.com.br/wp-content/uploads/2021/10/buenos-aires-argentina-cidade-mais-barata-do-mundo.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ================================================================== */
+
+   /* Imagens 4 ==================================================================== */
+
+   .card .img-amsul4 {
+    display: flex;
+    margin: 30px auto 10px auto;
+    width: 70px;
+    height: 70px;
+    background-image: url(img-trip/icone-chile.png);
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+   }
+   
+   .card:hover .img-amsul4 {
+    background-image: url(https://sweetway.com.br/wp-content/uploads/2019/01/tudo-o-que-voce-precisa-saber-sobre-santiago-no-chile.jpg);
+    background-size: cover;
+    width: 150%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+   }
+   
+   /* Imagem ==================================================================== */
+
+   .card h3 {
+    padding: 45px 10px;
+    font-size: 25px;
+    transition: all 0.5s;
+    z-index: -99;
+    line-height: 17px;
+    color: black;
+   }
+   
+   .card:hover h3 {
+    opacity: 0;
+    transition: all 0.5s;
+   }
+
+   /* ========================================================================================== */
+   /* ========================================================================================== */
+   /* ========================================================================================== */
+
+
+   .box-imagens-comprar {
+    width: 45%;
+    }
+    
+    .img-top-amsul img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .imgs-mid {
+        padding: 6rem 3rem;
+    }
+    
+    .mid-amsul1 img{
+        width: 95px;
+        height: 95px;
+    }
+    
+    .mid-amsul2 img {
+         width: 90px;
+        height: 90px;
+    }
+    
+    .mid-amsul3 img{
+        width: 95px;
+        height: 95px;
+    }
+    
+    .img-bottom-amsul img {
+        width: 95px;
+        height: 95x;
+    }
+    
+    .img-top-amsul {
+        height: 31%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imgs-mid {
+        margin: 1rem 0;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .img-bottom-amsul {
+        height: 30.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

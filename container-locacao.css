@@ -1,0 +1,37 @@
+.container-caixa {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caixa-esquerda {
+    padding: 0 3rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-esquerda h1 {
+    font-size: 37px;
+}
+
+.caixa-esquerda p {
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.caixa-direita {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-direita img {
+    width: 400px;
+    height: 400px;
+}
